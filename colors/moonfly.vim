@@ -39,7 +39,7 @@ let g:moonflyUnderlineMatchParen = get(g:, 'moonflyUnderlineMatchParen', 0)
 let g:moonflyVertSplits = get(g:, 'moonflyVertSplits', 1)
 
 " Background and foreground
-let s:black     = {"hex": '#080808', "term": 232}
+let s:black     = {"hex": '#1e1e1e', "term": 232}
 let s:white     = {"hex": '#c6c6c6', "term": 251}
 " Variations of charcoal-grey
 let s:grey0     = {"hex": '#323437', "term": 0  }
@@ -892,7 +892,7 @@ endif
 if has('nvim')
     " NvimTree plugin
     highlight! link NvimTreeFolderIcon MoonflyBlue
-    highlight! link NvimTreeFolderName MoonflyBlue
+    highlight! link NvimTreeFolderName MoonflyGrey241
     highlight! link NvimTreeIndentMarker MoonflyGrey236
     highlight! link NvimTreeOpenedFolderName MoonflyBlue
     highlight! link NvimTreeRootFolder MoonflyPurple
