@@ -7,7 +7,7 @@
 local colors = {
   color3   = '#303030',
   color6   = '#9e9e9e',
-  color7   = '#1e1e1e',
+  color7   = '#e3c78a',
   color8   = '#ae81ff',
   color0   = '#1c1c1c',
   color1   = '#ff5189',
