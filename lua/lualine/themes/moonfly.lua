@@ -26,7 +26,7 @@ return {
     c = {fg = colors.color6, bg = colors.color3}
   },
   normal = {
-    a = {fg = colors.color0, bg = colors.color7, gui = 'bold'},
+    a = {fg = colors.color2, bg = colors.color0, gui = 'bold'},
     b = {fg = colors.color2, bg = colors.color3},
     c = {fg = colors.color2, bg = colors.color3}
   },
